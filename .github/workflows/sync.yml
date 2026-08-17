@@ -1,0 +1,31 @@
+name: Sync registry
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Sync plugins from latest releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/sync_registry.py
+      - name: Commit and push changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then
+            echo "No changes; nothing to commit."
+          else
+            git add plugins
+            git -c user.name="github-actions[bot]" \
+                -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+                commit -m "chore: sync plugin versions from releases"
+            git push origin HEAD:main
+            echo "Pushed registry update."
+          fi

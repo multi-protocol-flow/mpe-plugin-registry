@@ -37,9 +37,9 @@
       "categories": ["ai"],
       "updatedAt": "2026-08-17",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-windows-x64.zip", "sha256": "b1bcc22fd489931796f1f36c4a51d9279f937f8c77621183f2c26c15762ba2f2", "size": 3812049 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-linux-x64.zip",   "sha256": "c2689166bebf4460f689c8c87aa8dfddd5dd6c3cdf01eeca9612fb6005708a23", "size": 4639542 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-macos-x64.zip",   "sha256": "79de7b2c5b12137b474a84f3573769542dc177a9ed073cff791da8f2d0c5922a", "size": 4217200 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-windows-x64.zip", "sha256": "e5f43e50ce17453c83da206a6d79964c11ddcfb6535d1f78077c3b7fac857f31", "size": 3063492 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-linux-x64.zip",   "sha256": "b887f262d5e39226ea6938a598f9c392463ae3b7f6a7dc54dee619acb868a767", "size": 3607623 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-macos-x64.zip",   "sha256": "2f1ad9999d63cc243a4d1ca8edcdbf1050742965730a916281ca3387c2004e3e", "size": 3251970 }
       }
     }
   ]

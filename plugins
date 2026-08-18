@@ -41,6 +41,20 @@
         "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-linux-x64.zip",   "sha256": "b887f262d5e39226ea6938a598f9c392463ae3b7f6a7dc54dee619acb868a767", "size": 3607623 },
         "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-macos-x64.zip",   "sha256": "2f1ad9999d63cc243a4d1ca8edcdbf1050742965730a916281ca3387c2004e3e", "size": 3251970 }
       }
+    },
+    {
+      "name": "mongo",
+      "version": "0.1.0",
+      "description": "MongoDB protocol plugin: connect/find/insert/update/delete/aggregate/close",
+      "author": "multi-protocol-flow",
+      "icon": "database",
+      "categories": ["database"],
+      "updatedAt": "2026-08-18",
+      "platforms": {
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-windows-x64.zip", "sha256": "64adbcaee997d9c080898a71d2f8cbf0ca0e6cf48badd06c28d8188cb792f1e2", "size": 3995702 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-linux-x64.zip",   "sha256": "6245dbc217e8e0be69404e749fa41a0d9b22c9af6082e41e93eaaab628f4ca0f", "size": 4543780 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-macos-x64.zip",   "sha256": "ba1dd502dbad78b94f76803dbf3460d2be83cd09af6cfb0a0da398be28dedef8", "size": 4038138 }
+      }
     }
   ]
 }

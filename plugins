@@ -6,26 +6,12 @@
       "description": "Redis protocol plugin: connect/command/close",
       "author": "multi-protocol-flow",
       "icon": "database",
-      "categories": [
-        "database"
-      ],
+      "categories": ["database"],
       "updatedAt": "2026-08-17",
       "platforms": {
-        "windows-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-windows-x64.zip",
-          "sha256": "199d00cee6b888da59ce19dffb4de4ed2593ba171d48e2aeb9b022571b242ae1",
-          "size": 833149
-        },
-        "linux-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-linux-x64.zip",
-          "sha256": "16fe6b029446102e45720666010a12b79e4eaf4f3ae0d06845e28cfcec3c18ec",
-          "size": 1075416
-        },
-        "macos-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-macos-x64.zip",
-          "sha256": "b675db020ff99d0d8b34f3679c76f8315a2618c88370831effa111f70ce93855",
-          "size": 961536
-        }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-windows-x64.zip", "sha256": "199d00cee6b888da59ce19dffb4de4ed2593ba171d48e2aeb9b022571b242ae1", "size": 833149 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-linux-x64.zip",   "sha256": "16fe6b029446102e45720666010a12b79e4eaf4f3ae0d06845e28cfcec3c18ec", "size": 1075416 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-macos-x64.zip",   "sha256": "b675db020ff99d0d8b34f3679c76f8315a2618c88370831effa111f70ce93855", "size": 961536 }
       }
     },
     {
@@ -34,26 +20,12 @@
       "description": "SQLite/MySQL/PostgreSQL protocol plugin: connect/query/begin/commit/rollback/close",
       "author": "multi-protocol-flow",
       "icon": "database",
-      "categories": [
-        "database"
-      ],
+      "categories": ["database"],
       "updatedAt": "2026-08-17",
       "platforms": {
-        "windows-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-windows-x64.zip",
-          "sha256": "28f730618e53443015258d09aaa8f76a10218300d2ebb97ba550fd3587078bd3",
-          "size": 2785174
-        },
-        "linux-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-linux-x64.zip",
-          "sha256": "33a5c5781b1dbfa0879dcd2464fa05b67db07e7e20a38bdcf615ea6bf45632c2",
-          "size": 3280781
-        },
-        "macos-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-macos-x64.zip",
-          "sha256": "6a87393c945d4ff71687998666e2c7073371e784b8d576c7a8abcfd1938c3f9a",
-          "size": 2896290
-        }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-windows-x64.zip", "sha256": "28f730618e53443015258d09aaa8f76a10218300d2ebb97ba550fd3587078bd3", "size": 2785174 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-linux-x64.zip",   "sha256": "33a5c5781b1dbfa0879dcd2464fa05b67db07e7e20a38bdcf615ea6bf45632c2", "size": 3280781 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-macos-x64.zip",   "sha256": "6a87393c945d4ff71687998666e2c7073371e784b8d576c7a8abcfd1938c3f9a", "size": 2896290 }
       }
     },
     {
@@ -62,26 +34,12 @@
       "description": "MCP protocol plugin: connect/call_tool/read_resource/get_prompt/close",
       "author": "multi-protocol-flow",
       "icon": "plug",
-      "categories": [
-        "ai"
-      ],
+      "categories": ["ai"],
       "updatedAt": "2026-08-17",
       "platforms": {
-        "windows-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-windows-x64.zip",
-          "sha256": "e5f43e50ce17453c83da206a6d79964c11ddcfb6535d1f78077c3b7fac857f31",
-          "size": 3063492
-        },
-        "linux-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-linux-x64.zip",
-          "sha256": "b887f262d5e39226ea6938a598f9c392463ae3b7f6a7dc54dee619acb868a767",
-          "size": 3607623
-        },
-        "macos-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-macos-x64.zip",
-          "sha256": "2f1ad9999d63cc243a4d1ca8edcdbf1050742965730a916281ca3387c2004e3e",
-          "size": 3251970
-        }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-windows-x64.zip", "sha256": "e5f43e50ce17453c83da206a6d79964c11ddcfb6535d1f78077c3b7fac857f31", "size": 3063492 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-linux-x64.zip",   "sha256": "b887f262d5e39226ea6938a598f9c392463ae3b7f6a7dc54dee619acb868a767", "size": 3607623 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-macos-x64.zip",   "sha256": "2f1ad9999d63cc243a4d1ca8edcdbf1050742965730a916281ca3387c2004e3e", "size": 3251970 }
       }
     },
     {
@@ -90,26 +48,12 @@
       "description": "MongoDB protocol plugin: connect/find/insert/update/delete/aggregate/close",
       "author": "multi-protocol-flow",
       "icon": "database",
-      "categories": [
-        "database"
-      ],
+      "categories": ["database"],
       "updatedAt": "2026-08-18",
       "platforms": {
-        "windows-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-windows-x64.zip",
-          "sha256": "64adbcaee997d9c080898a71d2f8cbf0ca0e6cf48badd06c28d8188cb792f1e2",
-          "size": 3995702
-        },
-        "linux-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-linux-x64.zip",
-          "sha256": "6245dbc217e8e0be69404e749fa41a0d9b22c9af6082e41e93eaaab628f4ca0f",
-          "size": 4543780
-        },
-        "macos-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-macos-x64.zip",
-          "sha256": "ba1dd502dbad78b94f76803dbf3460d2be83cd09af6cfb0a0da398be28dedef8",
-          "size": 4038138
-        }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-windows-x64.zip", "sha256": "64adbcaee997d9c080898a71d2f8cbf0ca0e6cf48badd06c28d8188cb792f1e2", "size": 3995702 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-linux-x64.zip",   "sha256": "6245dbc217e8e0be69404e749fa41a0d9b22c9af6082e41e93eaaab628f4ca0f", "size": 4543780 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-macos-x64.zip",   "sha256": "ba1dd502dbad78b94f76803dbf3460d2be83cd09af6cfb0a0da398be28dedef8", "size": 4038138 }
       }
     },
     {
@@ -118,16 +62,12 @@
       "description": "gRPC protocol plugin: connect/call/close (dynamic proto, server reflection, streaming)",
       "author": "multi-protocol-flow",
       "icon": "plug",
-      "categories": [
-        "api"
-      ],
-      "updatedAt": "2026-08-18",
+      "categories": ["api"],
+      "updatedAt": "2026-08-19",
       "platforms": {
-        "linux-x64": {
-          "url": "https://github.com/multi-protocol-flow/mpe-plugin-grpc/releases/download/v0.1.0/grpc-0.1.0-linux-x64.zip",
-          "sha256": "b70825971dd1099c908b1c9b0080b6491bfef74fa0f6bbe8db87f4397e724726",
-          "size": 3944246
-        }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-grpc/releases/download/v0.1.0/grpc-0.1.0-windows-x64.zip", "sha256": "babcc1384f4edbd48364998d019b099dece181be92721d1456ef1824f9b4b72b", "size": 3271432 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-grpc/releases/download/v0.1.0/grpc-0.1.0-linux-x64.zip",   "sha256": "9ed873a59c683fb66ce08d98b50052b50a8490790c67a5770eef7df1e4593988", "size": 3829324 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-grpc/releases/download/v0.1.0/grpc-0.1.0-macos-x64.zip",   "sha256": "a5b1297b2a7229e40c4416eca80b70db95c60e0ee14899dc0b8039ff4d733953", "size": 3488460 }
       }
     }
   ]

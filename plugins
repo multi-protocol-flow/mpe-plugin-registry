@@ -69,6 +69,20 @@
         "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-grpc/releases/download/v0.1.0/grpc-0.1.0-linux-x64.zip",   "sha256": "9ed873a59c683fb66ce08d98b50052b50a8490790c67a5770eef7df1e4593988", "size": 3829324 },
         "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-grpc/releases/download/v0.1.0/grpc-0.1.0-macos-x64.zip",   "sha256": "a5b1297b2a7229e40c4416eca80b70db95c60e0ee14899dc0b8039ff4d733953", "size": 3488460 }
       }
+    },
+    {
+      "name": "eolink",
+      "version": "0.1.0",
+      "description": "Eolink / Apikit OpenAPI datasource plugin: browse projects/apis and drag-and-drop to canvas",
+      "author": "multi-protocol-flow",
+      "icon": "cloud",
+      "categories": ["datasource", "api"],
+      "updatedAt": "2026-08-20",
+      "platforms": {
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-eolink/releases/download/v0.1.0/eolink-0.1.0-windows-x64.zip", "sha256": "7fa72569393fdba822f6c197a823aa1b356953cbe748ed4965abb5e6e53abb72", "size": 9610 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-eolink/releases/download/v0.1.0/eolink-0.1.0-linux-x64.zip",   "sha256": "7fa72569393fdba822f6c197a823aa1b356953cbe748ed4965abb5e6e53abb72", "size": 9610 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-eolink/releases/download/v0.1.0/eolink-0.1.0-macos-x64.zip",   "sha256": "7fa72569393fdba822f6c197a823aa1b356953cbe748ed4965abb5e6e53abb72", "size": 9610 }
+      }
     }
   ]
 }

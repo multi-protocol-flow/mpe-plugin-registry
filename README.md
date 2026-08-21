@@ -36,8 +36,8 @@ mpe run-node '{"type":"redis:connect","host":"127.0.0.1","port":6379}'
 
 ## Add a new plugin or version
 
-1. Append/update the entry in `plugins` (keep same-name versions in
-   descending version order — the client takes the first match).
+1. Append/update the entry in `plugins` (each plugin maintains only its
+   latest release version; new releases replace the existing entry).
 2. `platforms` keys are `<os>-<arch>`: `windows-x64 | windows-arm64 |
    linux-x64 | linux-arm64 | macos-x64 | macos-arm64`.
 3. `url` must be an absolute zip URL (e.g. a GitHub release asset), `sha256`

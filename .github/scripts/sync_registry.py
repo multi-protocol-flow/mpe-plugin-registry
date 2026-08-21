@@ -8,11 +8,11 @@ For every entry in `plugins`:
   3. rebuild the platform map (url / sha256 / size) from the release assets,
      reading each `.zip`'s sibling `.sha256` asset for the digest;
   4. compare with the entry's current version (semver):
-       - release version == current  -> refresh platforms + updatedAt
-       - release version >  current  -> insert a new entry (metadata copied
-         from the current entry) at the top of that plugin's version list,
-         keeping same-name versions in descending order (client contract)
+       - release version == current  -> refresh platforms + updatedAt if changed
+       - release version >  current  -> update the entry to the new version
        - release version <  current  -> leave untouched
+  5. retain ONLY the single latest version for each plugin (deduplicate any
+     historical versions).
 
 Writes `plugins` back in the canonical compact format (byte-identical when
 nothing changed). Requires `gh` (GH_TOKEN) and `curl`. Exit code is always 0;
@@ -175,10 +175,18 @@ def main():
     for name, entries in by_name.items():
         if not entries:
             continue
-        sample = next(iter(entries[0]["platforms"].values()))
+        # Sort descending by version in case input file had unordered duplicates
+        entries.sort(key=lambda e: parse_version(e["version"]), reverse=True)
+        current = entries[0]
+        had_duplicates = len(entries) > 1
+
+        sample = next(iter(current["platforms"].values()))
         match = ASSET_URL_RE.match(sample["url"])
         if match is None:
             print(f"[{name}] no GitHub release asset URL, skipping", flush=True)
+            if had_duplicates:
+                by_name[name] = [current]
+                changed = True
             continue
         owner, repo, _tag = match.group(1), match.group(2), match.group(3)
         repo_full = f"{owner}/{repo}"
@@ -188,30 +196,41 @@ def main():
             release = latest_release(repo_full)
         except RuntimeError as err:
             print(f"[{name}] SKIP (release query failed): {err}", flush=True)
+            if had_duplicates:
+                by_name[name] = [current]
+                changed = True
             continue
         if release is None:
             print(f"[{name}] no non-draft/non-prerelease release, skipping", flush=True)
+            if had_duplicates:
+                by_name[name] = [current]
+                changed = True
             continue
 
         release_version = release["tag_name"].lstrip("v")
         platforms = collect_platforms(repo_full, release)
         if not platforms:
             print(f"[{name}] no usable zip assets in release, skipping", flush=True)
+            if had_duplicates:
+                by_name[name] = [current]
+                changed = True
             continue
 
-        # Entries are in descending version order per the contract; the first
-        # is the newest known version.
-        current = entries[0]
         current_version = current["version"]
         release_v = parse_version(release_version)
         current_v = parse_version(current_version)
 
         if release_v == current_v:
+            by_name[name] = [current]
+            if had_duplicates:
+                changed = True
+                print(f"[{name}] pruned duplicate versions, keeping only latest v{release_version}", flush=True)
             if current["platforms"] == platforms:
-                print(
-                    f"[{name}] v{release_version} already up to date, no change",
-                    flush=True,
-                )
+                if not had_duplicates:
+                    print(
+                        f"[{name}] v{release_version} already up to date, no change",
+                        flush=True,
+                    )
                 continue
             current["platforms"] = platforms
             current["updatedAt"] = today
@@ -228,16 +247,19 @@ def main():
                 "updatedAt": today,
                 "platforms": platforms,
             }
-            entries.insert(0, new_entry)
+            by_name[name] = [new_entry]
             changed = True
-            print(f"[{name}] new version v{release_version} inserted", flush=True)
+            print(f"[{name}] updated to latest version v{release_version}", flush=True)
         else:
+            by_name[name] = [current]
+            if had_duplicates:
+                changed = True
+                print(f"[{name}] pruned duplicate versions, keeping only latest v{current_version}", flush=True)
             print(
                 f"[{name}] release v{release_version} < current v{current_version}, "
                 "leaving untouched",
                 flush=True,
             )
-
     if not changed:
         print("No updates needed.", flush=True)
         return

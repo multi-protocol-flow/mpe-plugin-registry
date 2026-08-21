@@ -33,7 +33,7 @@ mpe run-node '{"type":"redis:connect","host":"127.0.0.1","port":6379}'
 
 ## 新增插件或版本
 
-1. 在 `plugins` 中追加/更新条目（同名多版本按版本降序排列——客户端取第一个匹配）。
+1. 在 `plugins` 中追加/更新条目（每个插件仅保留最新发布版本，新版本发布时直接更新替换）。
 2. `platforms` key 为 `<os>-<arch>`：`windows-x64 | windows-arm64 |
    linux-x64 | linux-arm64 | macos-x64 | macos-arm64`。
 3. `url` 必须是 zip 的绝对 URL（如 GitHub release 资产），`sha256` 为 zip

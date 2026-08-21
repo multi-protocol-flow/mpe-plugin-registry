@@ -83,6 +83,20 @@
         "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-eolink/releases/download/v0.1.3/eolink-0.1.3-linux-x64.zip",   "sha256": "db43dae8b8c5b75ffca9ab275864b145dbcbfe8376812a8945398cb30dc440c3", "size": 14277617 },
         "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-eolink/releases/download/v0.1.3/eolink-0.1.3-macos-x64.zip",   "sha256": "a8356b23a541cd06daabf61e4ba2ba692735f8da2941ea48553921fb4b92588f", "size": 5986310 }
       }
+    },
+    {
+      "name": "postman",
+      "version": "0.1.0",
+      "description": "Postman OpenAPI & Collection datasource plugin: browse workspaces/collections and drag-and-drop to canvas",
+      "author": "multi-protocol-flow",
+      "icon": "cloud",
+      "categories": ["datasource", "api"],
+      "updatedAt": "2026-08-21",
+      "platforms": {
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-postman/releases/download/v0.1.0/postman-0.1.0-windows-x64.zip", "sha256": "d71cbadc72decfa5f60dc41bd60c224307f0a410e7f506494d8ec1307d1b1441", "size": 6797363 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-postman/releases/download/v0.1.0/postman-0.1.0-linux-x64.zip",   "sha256": "4c6e051471095b1cc6e281a5930e26eae81b0e2a237375d7dc0933f6162c3d57", "size": 14278263 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-postman/releases/download/v0.1.0/postman-0.1.0-macos-x64.zip",   "sha256": "2010fd6b67ff5785e27b57bf88e5a6ebd86d873e1824805a873036120d72291d", "size": 5987802 }
+      }
     }
   ]
 }

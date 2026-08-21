@@ -72,6 +72,20 @@
     },
     {
       "name": "eolink",
+      "version": "0.1.3",
+      "description": "Eolink / Apikit OpenAPI datasource plugin: browse projects/apis and drag-and-drop to canvas",
+      "author": "multi-protocol-flow",
+      "icon": "cloud",
+      "categories": ["datasource", "api"],
+      "updatedAt": "2026-08-21",
+      "platforms": {
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-eolink/releases/download/v0.1.3/eolink-0.1.3-windows-x64.zip", "sha256": "a8362e11bd662d862d8dee7636b8d8b157407b646df87d667fdb90558c7a2e4d", "size": 6796781 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-eolink/releases/download/v0.1.3/eolink-0.1.3-linux-x64.zip",   "sha256": "db43dae8b8c5b75ffca9ab275864b145dbcbfe8376812a8945398cb30dc440c3", "size": 14277617 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-eolink/releases/download/v0.1.3/eolink-0.1.3-macos-x64.zip",   "sha256": "a8356b23a541cd06daabf61e4ba2ba692735f8da2941ea48553921fb4b92588f", "size": 5986310 }
+      }
+    },
+    {
+      "name": "eolink",
       "version": "0.1.2",
       "description": "Eolink / Apikit OpenAPI datasource plugin: browse projects/apis and drag-and-drop to canvas",
       "author": "multi-protocol-flow",

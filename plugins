@@ -97,6 +97,20 @@
         "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-postman/releases/download/v0.1.0/postman-0.1.0-linux-x64.zip",   "sha256": "4c6e051471095b1cc6e281a5930e26eae81b0e2a237375d7dc0933f6162c3d57", "size": 14278263 },
         "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-postman/releases/download/v0.1.0/postman-0.1.0-macos-x64.zip",   "sha256": "2010fd6b67ff5785e27b57bf88e5a6ebd86d873e1824805a873036120d72291d", "size": 5987802 }
       }
+    },
+    {
+      "name": "llm",
+      "version": "0.1.0",
+      "description": "LLM protocol plugin: chat/structured/embeddings/rerank with OpenAI compatibility, streaming, reasoning, and JSON schema validation",
+      "author": "multi-protocol-flow",
+      "icon": "sparkles",
+      "categories": ["ai"],
+      "updatedAt": "2026-08-24",
+      "platforms": {
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.0/llm-0.1.0-windows-x64.zip", "sha256": "7d4152c547878c70ab972a383022cad1005479944173b50d0a877f9eeaca2ce6", "size": 3368536 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.0/llm-0.1.0-linux-x64.zip",   "sha256": "b294e51eedc0523e36f0deacc72de5d28d6d39c57f6603126ecf1a8dc7cfd213", "size": 4032366 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.0/llm-0.1.0-macos-x64.zip",   "sha256": "d6452a0a66e6a416b2cf6a72e5389b517a8f13d21c0e6e462116a072a79f6f8c", "size": 3631927 }
+      }
     }
   ]
 }

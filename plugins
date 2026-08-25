@@ -119,11 +119,11 @@
       "author": "multi-protocol-flow",
       "icon": "puzzle",
       "categories": ["ai"],
-      "updatedAt": "2026-08-24",
+      "updatedAt": "2026-08-25",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.0/agent-0.1.0-windows-x64.zip", "sha256": "8a71d2f8cbf0ca0e6cf48badd06c28d8188cb792f1e264adbcaee997d9c08089", "size": 3450000 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.0/agent-0.1.0-linux-x64.zip",   "sha256": "e41a0d9b22c9af6082e41e93eaaab628f4ca0f6245dbc217e8e0be69404e749f", "size": 4150000 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.0/agent-0.1.0-macos-x64.zip",   "sha256": "4b92588fba1dd502dbad78b94f76803dbf3460d2be83cd09af6cfb0a0da398be", "size": 3750000 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.0/agent-0.1.0-windows-x64.zip", "sha256": "1acf7cc0860aa615ab250ad168420095e80a593cb73aec35791b9eeb91015917", "size": 2550507 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.0/agent-0.1.0-linux-x64.zip",   "sha256": "e52ad5b4e6ce6f62c7e1ebadc8d34c7a824b5d141efa0b2b45176c06311a13c3", "size": 3072052 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.0/agent-0.1.0-macos-x64.zip",   "sha256": "f4aecace7605fe2f76e3dc15e97e8b6c5645216a4e8ff3169fd74a34aad2e071", "size": 2745850 }
       }
     }
   ]

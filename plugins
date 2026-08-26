@@ -30,16 +30,16 @@
     },
     {
       "name": "mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "MCP protocol plugin: connect/call_tool/read_resource/get_prompt/close",
       "author": "multi-protocol-flow",
       "icon": "plug",
       "categories": ["ai"],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-26",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-windows-x64.zip", "sha256": "e5f43e50ce17453c83da206a6d79964c11ddcfb6535d1f78077c3b7fac857f31", "size": 3063492 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-linux-x64.zip",   "sha256": "b887f262d5e39226ea6938a598f9c392463ae3b7f6a7dc54dee619acb868a767", "size": 3607623 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.0/mcp-0.1.0-macos-x64.zip",   "sha256": "2f1ad9999d63cc243a4d1ca8edcdbf1050742965730a916281ca3387c2004e3e", "size": 3251970 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.1/mcp-0.1.1-windows-x64.zip", "sha256": "ec28f58b4342274dff33b03f2df19382171dd367a011582b9c66f6ea9d7f7748", "size": 3130946 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.1/mcp-0.1.1-linux-x64.zip",   "sha256": "ed8cd7e51cbf0080fa4d8983d35114eb3f91ae8c2855c16d4548d4588ede147b", "size": 3669287 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mcp/releases/download/v0.1.1/mcp-0.1.1-macos-x64.zip",   "sha256": "c000f2a78a2ca9b513a399a09fc4f757f04ca5799a9d2f9be7450f10dbaebfa3", "size": 3269101 }
       }
     },
     {
@@ -114,16 +114,16 @@
     },
     {
       "name": "agent",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Agent plugin: ReAct autonomous decision engine with tool dynamic calling, self-correction, guardrails, and thinking timeline",
       "author": "multi-protocol-flow",
       "icon": "puzzle",
       "categories": ["ai"],
       "updatedAt": "2026-08-26",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.1/agent-0.1.1-windows-x64.zip", "sha256": "d799a509f508405740bae30aee4381488cbb55400d3899edb6058e971cbbe097", "size": 2552013 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.1/agent-0.1.1-linux-x64.zip",   "sha256": "9e2eb2f15b36981796f3b0e16c09cace4adcd3233af0b03fd7c644b1b9242c32", "size": 3068647 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.1/agent-0.1.1-macos-x64.zip",   "sha256": "f9f7544bdf9161d25e685d343f65bcb3cc3b97de6ba1da9de306cdf9610357ad", "size": 2748820 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.2/agent-0.1.2-windows-x64.zip", "sha256": "d205ddb64f53e408506e1e303d71862f7560c42eacb224b52947888e2919e368", "size": 2640102 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.2/agent-0.1.2-linux-x64.zip",   "sha256": "0743713a2f60a7ec3d6a09cc722b284d310fa777033681ff370513e66e400afc", "size": 3167726 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.2/agent-0.1.2-macos-x64.zip",   "sha256": "77ed2350d108dcc3e485876ab1d4a02e6003418c8b3cc1a32472597da0a39e90", "size": 2834979 }
       }
     }
   ]

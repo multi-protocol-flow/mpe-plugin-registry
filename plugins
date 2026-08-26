@@ -135,9 +135,9 @@
       "categories": ["messaging", "queue"],
       "updatedAt": "2026-08-26",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-windows-x64.zip", "sha256": "4b92588fba1dd502dbad78b94f76803dbf3460d2be83cd09af6cfb0a0da398be", "size": 3800000 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-linux-x64.zip",   "sha256": "e41a0d9b22c9af6082e41e93eaaab628f4ca0f6245dbc217e8e0be69404e749f", "size": 4200000 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-macos-x64.zip",   "sha256": "8a71d2f8cbf0ca0e6cf48badd06c28d8188cb792f1e264adbcaee997d9c08089", "size": 3900000 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-windows-x64.zip", "sha256": "b0de6fbd4f0288cf9fdbe0ff1663d35d050790a539e0435435fce5f502cb568d", "size": 2605733 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-linux-x64.zip",   "sha256": "95a0ca066c2193c30bad550698c7f5455753b40f14f27404383db5eb991cd518", "size": 2773450 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-macos-x64.zip",   "sha256": "b71dfed6a0deb98b4b1f8d451c7caab53493ae5708dcd49ea9dbf6efca428f7f", "size": 2313691 }
       }
     }
   ]

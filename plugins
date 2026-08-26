@@ -125,6 +125,20 @@
         "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.2/agent-0.1.2-linux-x64.zip",   "sha256": "0743713a2f60a7ec3d6a09cc722b284d310fa777033681ff370513e66e400afc", "size": 3167726 },
         "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.2/agent-0.1.2-macos-x64.zip",   "sha256": "77ed2350d108dcc3e485876ab1d4a02e6003418c8b3cc1a32472597da0a39e90", "size": 2834979 }
       }
+    },
+    {
+      "name": "kafka",
+      "version": "0.1.0",
+      "description": "Kafka protocol plugin: connect/produce/consume/consume_batch/admin/schema_registry/close",
+      "author": "multi-protocol-flow",
+      "icon": "layers",
+      "categories": ["messaging", "queue"],
+      "updatedAt": "2026-08-26",
+      "platforms": {
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-windows-x64.zip", "sha256": "4b92588fba1dd502dbad78b94f76803dbf3460d2be83cd09af6cfb0a0da398be", "size": 3800000 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-linux-x64.zip",   "sha256": "e41a0d9b22c9af6082e41e93eaaab628f4ca0f6245dbc217e8e0be69404e749f", "size": 4200000 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-macos-x64.zip",   "sha256": "8a71d2f8cbf0ca0e6cf48badd06c28d8188cb792f1e264adbcaee997d9c08089", "size": 3900000 }
+      }
     }
   ]
 }

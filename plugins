@@ -16,16 +16,16 @@
     },
     {
       "name": "db",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "SQLite/MySQL/PostgreSQL protocol plugin: connect/query/begin/commit/rollback/close",
       "author": "multi-protocol-flow",
       "icon": "database",
       "categories": ["database"],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-26",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-windows-x64.zip", "sha256": "28f730618e53443015258d09aaa8f76a10218300d2ebb97ba550fd3587078bd3", "size": 2785174 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-linux-x64.zip",   "sha256": "33a5c5781b1dbfa0879dcd2464fa05b67db07e7e20a38bdcf615ea6bf45632c2", "size": 3280781 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.0/db-0.1.0-macos-x64.zip",   "sha256": "6a87393c945d4ff71687998666e2c7073371e784b8d576c7a8abcfd1938c3f9a", "size": 2896290 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.1/db-0.1.1-windows-x64.zip", "sha256": "320a483f7164da988145251d5b25f09d0ed9194caaa17383876c22fa69c5242c", "size": 2782698 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.1/db-0.1.1-linux-x64.zip",   "sha256": "b99d428ea1ad492032ae863681d8d8fcfec9688046fef4abd8d71191449d82d8", "size": 3265080 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-db/releases/download/v0.1.1/db-0.1.1-macos-x64.zip",   "sha256": "65515a8a85b0aae877d3c6f7afe7ed568c93b24def9f9ebf7b6e27a3438670ab", "size": 2896177 }
       }
     },
     {
@@ -44,16 +44,16 @@
     },
     {
       "name": "mongo",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "MongoDB protocol plugin: connect/find/insert/update/delete/aggregate/close",
       "author": "multi-protocol-flow",
       "icon": "database",
       "categories": ["database"],
-      "updatedAt": "2026-08-18",
+      "updatedAt": "2026-08-26",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-windows-x64.zip", "sha256": "64adbcaee997d9c080898a71d2f8cbf0ca0e6cf48badd06c28d8188cb792f1e2", "size": 3995702 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-linux-x64.zip",   "sha256": "6245dbc217e8e0be69404e749fa41a0d9b22c9af6082e41e93eaaab628f4ca0f", "size": 4543780 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.0/mongo-0.1.0-macos-x64.zip",   "sha256": "ba1dd502dbad78b94f76803dbf3460d2be83cd09af6cfb0a0da398be28dedef8", "size": 4038138 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.1/mongo-0.1.1-windows-x64.zip", "sha256": "a348f3edd1da8b43d2c5cb0d1624ff6f8b4c3883127c84858a89c4554800f204", "size": 4010243 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.1/mongo-0.1.1-linux-x64.zip",   "sha256": "8d0891ee6dd0f6b7cbe030e581660722181bed05c8e8950f6fd8e328858d9612", "size": 4548748 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-mongo/releases/download/v0.1.1/mongo-0.1.1-macos-x64.zip",   "sha256": "edba3b6ab7383b8c23df1845c1784d4c1560f3ce23db8ac12c4ca74eabdb2149", "size": 4051941 }
       }
     },
     {

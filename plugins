@@ -2,16 +2,16 @@
   "plugins": [
     {
       "name": "redis",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Redis protocol plugin: connect/command/close",
       "author": "multi-protocol-flow",
       "icon": "database",
       "categories": ["database"],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-26",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-windows-x64.zip", "sha256": "199d00cee6b888da59ce19dffb4de4ed2593ba171d48e2aeb9b022571b242ae1", "size": 833149 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-linux-x64.zip",   "sha256": "16fe6b029446102e45720666010a12b79e4eaf4f3ae0d06845e28cfcec3c18ec", "size": 1075416 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.0/redis-0.1.0-macos-x64.zip",   "sha256": "b675db020ff99d0d8b34f3679c76f8315a2618c88370831effa111f70ce93855", "size": 961536 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.1/redis-0.1.1-windows-x64.zip", "sha256": "40cbf42786cab70b9734e3fed22e7db4786341b19438c0e1822aac7344bd52f6", "size": 832293 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.1/redis-0.1.1-linux-x64.zip",   "sha256": "073506c75da632032f3f45a5c0f2bb1d44312edcbe4d2058e43627739afbb3fb", "size": 1079011 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-redis/releases/download/v0.1.1/redis-0.1.1-macos-x64.zip",   "sha256": "4971b3784d7f6b3e743026a8b30675cafbc13c1e081bf62954bdb556f2774723", "size": 965889 }
       }
     },
     {

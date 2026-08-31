@@ -139,6 +139,20 @@
         "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-linux-x64.zip",   "sha256": "95a0ca066c2193c30bad550698c7f5455753b40f14f27404383db5eb991cd518", "size": 2773450 },
         "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-kafka/releases/download/v0.1.0/kafka-0.1.0-macos-x64.zip",   "sha256": "b71dfed6a0deb98b4b1f8d451c7caab53493ae5708dcd49ea9dbf6efca428f7f", "size": 2313691 }
       }
+    },
+    {
+      "name": "smtp",
+      "version": "0.1.0",
+      "description": "SMTP protocol plugin: connect/send/disconnect",
+      "author": "multi-protocol-flow",
+      "icon": "mail",
+      "categories": ["network", "notification"],
+      "updatedAt": "2026-08-31",
+      "platforms": {
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-windows-x64.zip", "sha256": "", "size": 0 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-linux-x64.zip",   "sha256": "", "size": 0 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-macos-x64.zip",   "sha256": "", "size": 0 }
+      }
     }
   ]
 }

@@ -149,9 +149,9 @@
       "categories": ["network", "notification"],
       "updatedAt": "2026-08-31",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-windows-x64.zip", "sha256": "", "size": 0 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-linux-x64.zip",   "sha256": "", "size": 0 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-macos-x64.zip",   "sha256": "", "size": 0 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-windows-x64.zip", "sha256": "2f3d55bdcfda23bb559a1418c37adbca08676d4c23b4ea0416c4d84d3ee48353", "size": 1495835 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-linux-x64.zip",   "sha256": "924041b3fdfbbd5e04bff4bdb953c44ddef1bbbcf81e226ed2022d5fcb89d298", "size": 1828898 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-smtp/releases/download/v0.1.0/smtp-0.1.0-macos-x64.zip",   "sha256": "5d5d663b5effd3edb3d781f6f3d3cfef8dae18310bd397f7691af66277005068", "size": 1638346 }
       }
     }
   ]

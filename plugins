@@ -100,16 +100,16 @@
     },
     {
       "name": "llm",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "LLM protocol plugin: chat/structured/embeddings/rerank with OpenAI compatibility, streaming, reasoning, and JSON schema validation",
       "author": "multi-protocol-flow",
       "icon": "sparkles",
       "categories": ["ai"],
-      "updatedAt": "2026-08-27",
+      "updatedAt": "2026-09-21",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.4/llm-0.1.4-windows-x64.zip", "sha256": "2dd01eafccd59cb0d314c18c7cd0b3c5c3ea85fb02c0b6ecaa0b9e14b65fd176", "size": 3379445 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.4/llm-0.1.4-linux-x64.zip",   "sha256": "7cb4e13211a66ebd2c77362d383c57a33fa83a78bf1e8b618ea861798bbc1399", "size": 4042305 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.4/llm-0.1.4-macos-x64.zip",   "sha256": "db45acfa52324dddb6672b10a29f03d59532d52356ffb8098e1e461175738d25", "size": 3641986 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.5/llm-0.1.5-windows-x64.zip", "sha256": "67afa9be14a6ea9ac0544c8f4b902a0342c8b1a93805766eda0e3190dff093df", "size": 3380667 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.5/llm-0.1.5-linux-x64.zip",   "sha256": "1712af7948501f6779b2e501eb1d1a56eef026c5e327d152f4774bb2dc5f8727", "size": 4045202 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-llm/releases/download/v0.1.5/llm-0.1.5-macos-x64.zip",   "sha256": "0c0416f4c06bff27719cd8d2a4ad6e3a31178fa5c3cfebe7c8ec9cf5496ef730", "size": 3646835 }
       }
     },
     {

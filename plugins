@@ -114,16 +114,16 @@
     },
     {
       "name": "agent",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Agent plugin: ReAct autonomous decision engine with tool dynamic calling, self-correction, guardrails, and thinking timeline",
       "author": "multi-protocol-flow",
       "icon": "puzzle",
       "categories": ["ai"],
-      "updatedAt": "2026-08-26",
+      "updatedAt": "2026-09-21",
       "platforms": {
-        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.2/agent-0.1.2-windows-x64.zip", "sha256": "d205ddb64f53e408506e1e303d71862f7560c42eacb224b52947888e2919e368", "size": 2640102 },
-        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.2/agent-0.1.2-linux-x64.zip",   "sha256": "0743713a2f60a7ec3d6a09cc722b284d310fa777033681ff370513e66e400afc", "size": 3167726 },
-        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.2/agent-0.1.2-macos-x64.zip",   "sha256": "77ed2350d108dcc3e485876ab1d4a02e6003418c8b3cc1a32472597da0a39e90", "size": 2834979 }
+        "windows-x64": { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.3/agent-0.1.3-windows-x64.zip", "sha256": "5600109128b5eee7231904f8ce08d33cd7a0b8326801c4a43943ce3b90a30988", "size": 2643073 },
+        "linux-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.3/agent-0.1.3-linux-x64.zip",   "sha256": "fef084aee97d6b75085c5f71bbfbcd584de4d6f4c4db8fa128db676447d6b504", "size": 3167885 },
+        "macos-x64":   { "url": "https://github.com/multi-protocol-flow/mpe-plugin-agent/releases/download/v0.1.3/agent-0.1.3-macos-x64.zip",   "sha256": "f2be66f1b4b69ee611344ae0ba000ee4929a222f008b6f04f6d5e9f3fae14011", "size": 2835614 }
       }
     },
     {
